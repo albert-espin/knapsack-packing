@@ -1,4 +1,4 @@
-# An Evolutionary Algorithm for the Two-Dimensional Packing Problem combined with the 0/1 Knapsack Problem
+# An Evolutionary Algorithm for Solving the Two-Dimensional Packing Problem Combined with the 0/1 Knapsack Problem
 
 ## Introduction
 
@@ -10,6 +10,7 @@ To run the code, Python 3.x is required, with the following packages:
   - matplotlib
   - numpy
   - pandas
+  - pickle
   - shapely
 
 The file to run is "problem_experiments.py". An IDE is recommended, but running from terminal should be possible too. By default, the problems created in functions invoked by "create_problems()" are used, but you can replace them with your own problem definitions, following the same syntax scheme.
