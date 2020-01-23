@@ -58,3 +58,22 @@ The supported shapes for items are:
 - Ellipses (added in "ellipse.py").
 
 You can add new shapes if you want, by first checking how circles and ellipses were defined (and their intersection checks with the rest of items).
+
+
+## Solution examples
+
+The solutions obtained by the evolutionary algorithm for some of the tested problems are shown below. In these 7 problems, the result is optimal, i.e. the maximum possible value is obtained. In the Joint (Knapsack + Packing) Problem, a solution can be optimal even if some items are left outside of the container (even if there is enough geometrical space available), namely in cases where the weight limit would be exceeded and no other combination of placed items would have yielded higher value. More details about these and other problems can be found in the report.
+
+![Problem 1](https://raw.githubusercontent.com/albert-espin/knapsack-packing/master/Output/Problems/CustomKnapsackPacking/Comparison/1/evolutionary_exec10_solution.png)
+
+![Problem 2](https://raw.githubusercontent.com/albert-espin/knapsack-packing/master/Output/Problems/CustomKnapsackPacking/Comparison/2/evolutionary_exec10_solution.png)
+
+![Problem 3](https://raw.githubusercontent.com/albert-espin/knapsack-packing/master/Output/Problems/CustomKnapsackPacking/Comparison/3/evolutionary_exec8_solution.png)
+
+![Problem 4](https://raw.githubusercontent.com/albert-espin/knapsack-packing/master/Output/Problems/CustomKnapsackPacking/Comparison/4/evolutionary_exec7_solution.png)
+
+![Problem 6](https://raw.githubusercontent.com/albert-espin/knapsack-packing/master/Output/Problems/CustomKnapsackPacking/Comparison/6/evolutionary_exec1_solution.png)
+
+![Problem 7](https://raw.githubusercontent.com/albert-espin/knapsack-packing/master/Output/Problems/CustomKnapsackPacking/Comparison/7/evolutionary_exec5_solution.png)
+
+![Problem 8](https://raw.githubusercontent.com/albert-espin/knapsack-packing/master/Output/Problems/CustomKnapsackPacking/Comparison/8/evolutionary_exec5_solution.png)
