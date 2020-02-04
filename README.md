@@ -77,3 +77,9 @@ The solutions obtained by the evolutionary algorithm for some of the tested prob
 ![Problem 7](https://raw.githubusercontent.com/albert-espin/knapsack-packing/master/Output/Problems/CustomKnapsackPacking/Comparison/7/evolutionary_exec5_solution.png)
 
 ![Problem 8](https://raw.githubusercontent.com/albert-espin/knapsack-packing/master/Output/Problems/CustomKnapsackPacking/Comparison/8/evolutionary_exec5_solution.png)
+
+
+## Research context
+
+This work was submitted as Master Thesis for Master in Artificial Intelligence of Universitat Politècnica de Catalunya (UPC), in January 2020. A link to the official publication in the repository of the University will be added when available.
+
