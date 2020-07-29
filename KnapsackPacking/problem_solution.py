@@ -4,20 +4,7 @@ from scipy.interpolate import interpolate
 from shapely import affinity
 import matplotlib.pyplot as plt
 from shapely.geometry import LineString
-
 from shape_functions import *
-
-
-# TODO: IF PROBLEM TYPE IS PACKING, PASS DIFFERENT PARAMS TO VISUALIZATION OF A SOLUTION: DON'T SHOW VALUE/WEIGHT RATIO NOR VALUES AND WEIGHTS OF ITEMS OUTSIDE, AND FIX FONT ISSUE WITH MINUS, AND SHOW INF WITH UNICODE CHARACTER.
-
-''' TODO: CREATE PACKING PROBLEMS WITH WOLFRAM ALPHA, FOR EACH OF THEM:
-    - FIND PERFECT SETTING, E.G. "pack 50 circles of radius 4 in a circle" -> opt. container radius = 31.7901
-    - RELAX CONDITIONS, E.G. "pack 50 circles in a circle of radius 33" -> opt. item radius = 4.15224
-    - ENSURE THAT INITIAL OPTIMAL NUMBER IS SAME, E.G.  "pack circles of radius 4.15224 in a circle of radius 33" -> still item number = 50 -> GOOD
-'''
-
-# TODO: TEST ALGORITHMS IN PACKING DATASET(S), SOLVING THE PACKING PROBLEM (ALL ITEMS HAVE WEIGHT 1, CAPACITY IS INFINITE, AND VALUE IS EITHER AREA OR 1, DEPENDING ON THE OBJECTIVE OF THE PARTICULAR PROBLEM TYPE).
-# TODO: [...]
 
 
 # set plotting font and sizes
